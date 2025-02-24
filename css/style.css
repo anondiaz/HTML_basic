@@ -1,4 +1,77 @@
-a{
-    text-decoration: none;
-    color: black;
+/* @import url("https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"); */
+
+@font-face {
+    font-family: 'Bona Nova SC';
+    src: url('../fonts/Bona_Nova_SC/BonaNovaSC-Bold.woff2') format('woff2'),
+        url('../fonts/Bona_Nova_SC/BonaNovaSC-Bold.woff') format('woff'),
+        url('../fonts/Bona_Nova_SC/BonaNovaSC-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/static/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto/static/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto/static/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+header img {
+  /* anidamos etiquetas */
+  width: 100%;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: "Bona Nova SC", serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4rem;
+  
+  }
+
+h2 {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+nav {
+    background-color: #017284;
+    color: white;
+    ul {
+        margin: 0 auto;
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+    }
+    li {
+        list-style: none;
+     
+     }
+    a {
+        color: inherit;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+
